@@ -1,0 +1,239 @@
+0000.000 (0) Opened log file at time: Thu, 29 Jul 2021 11:31:15 +0000 on http://localhost/boulangeriedopale
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.8 PHP: 7.4.16 (apache2handler, Darwin MBP-de-Dylan 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:31 PDT 2021; root:xnu-7195.141.2~5/RELEASE_X86_64 x86_64) MySQL: 5.7.32 (max packet size=4194304) WPLANG: fr_FR Server: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.16 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54.2M | 4.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 11138 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.007 (0) Semaphore (fd, wp_options) being initialised
+0000.009 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.012 (0) Set semaphore last lock (fd) time to 2021-07-29 11:31:15
+0000.012 (0) Semaphore lock (fd) complete
+0000.016 (0) Backup run: resumption=0, nonce=541d3ecad395, file_nonce=541d3ecad395 begun at=1627558275 (0s ago), job type=backup
+0000.017 (0) Scheduling a resumption (1) after 300 seconds (1627558575) in case this run gets aborted
+0000.030 (0) Checking if we have a zip executable available
+0000.031 (0) Testing: /usr/bin/zip
+0000.042 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.042 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.043 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.044 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.045 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.054 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.057 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.067 (0) Working binary zip found: /usr/bin/zip
+0000.069 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.070 (0) Creation of backups of directories: beginning
+0000.074 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.355 (0) Total entities for the zip file: 505 directories, 2798 files (0 skipped as non-modified), 55.8 MB
+0000.362 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.367 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.372 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.378 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.382 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.388 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.393 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.399 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.404 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.409 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.410 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.6 MB, 2798 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.964 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: size is now: 3.50 MB
+0000.971 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 1100 files added (on-disk size: 3600 KB)
+0000.976 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 1200 files added (on-disk size: 3600 KB)
+0000.981 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 1300 files added (on-disk size: 3600 KB)
+0000.986 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 1400 files added (on-disk size: 3600 KB)
+0000.991 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 1500 files added (on-disk size: 3600 KB)
+0000.996 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 1600 files added (on-disk size: 3600 KB)
+0000.998 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 2798 files batched, 627 (1628) added so far); re-opening (prior size: 3600 KB)
+0002.022 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: size is now: 10.50 MB
+0002.028 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.2 s, rate: 21324.1 KB/s)
+0002.031 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.2064499855042, normalised_time=1.200519334627, max_time=2.0290720462799, data points known=1, old_max_bytes=26214400, new_max_bytes=131015299)
+0002.038 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 1700 files added (on-disk size: 10705 KB)
+0002.045 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 1800 files added (on-disk size: 10705 KB)
+0002.051 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 1900 files added (on-disk size: 10705 KB)
+0002.057 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 2000 files added (on-disk size: 10705 KB)
+0002.062 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 2100 files added (on-disk size: 10705 KB)
+0002.067 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 2200 files added (on-disk size: 10705 KB)
+0002.073 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 2300 files added (on-disk size: 10705 KB)
+0002.078 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 2400 files added (on-disk size: 10705 KB)
+0002.084 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 2500 files added (on-disk size: 10705 KB)
+0002.089 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 2600 files added (on-disk size: 10705 KB)
+0002.091 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.2 MB, 2798 files batched, 1001 (2629) added so far); re-opening (prior size: 10705 KB)
+0003.184 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: size is now: 15.50 MB
+0003.196 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip.tmp: 2700 files added (on-disk size: 15866.9 KB)
+0003.717 (0) Created plugins zip (0) - 16208.5 KB in 3.6 s (4450.7 KB/s) (sha1: 88a3188618fb67341376ae5c7408f3c57f162ad3, sha256: e124f3dc6cf8a1d19406ae7dab054febf08d496f99fea54af465560faf00e32d)
+0003.721 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.806 (0) Total entities for the zip file: 207 directories, 970 files (0 skipped as non-modified), 21.9 MB
+0003.810 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.815 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.820 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.824 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.829 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.834 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0003.839 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0003.844 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0003.848 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0004.816 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip.tmp: size is now: 8.60 MB
+0004.996 (0) Created themes zip (0) - 8823.4 KB in 1.3 s (6931.8 KB/s) (sha1: b671cdcfd2c679931d9eac233050ab8104d43fa6, sha256: f36584fb2e4d9d1e054b3294273359e89a780d081c353d31b03e8cdc4cc42c8b)
+0005.000 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.001 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/boulangeriedopale/wp-content/uploads
+0005.003 (0) finding files: elementor: adding to list (1)
+0005.004 (0) finding files: 2021: adding to list (2)
+0005.005 (0) finding files: 2016: adding to list (3)
+0005.006 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.021 (0) Total entities for the zip file: 7 directories, 128 files (0 skipped as non-modified), 16 MB
+0005.027 (0) Zip: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.227 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-uploads.zip.tmp: size is now: 16.00 MB
+0005.548 (0) Created uploads zip (0) - 16361.3 KB in 0.5 s (30306.2 KB/s) (sha1: 566408b0093ca4c99ea5d8fee22479512f0785d3, sha256: 8b2dcfc5ae874b442b1a82b460e5e97989f245369246960b3be0640c0f1bcd36)
+0005.553 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.553 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.554 (0) Looking for candidates to backup in: /Applications/MAMP/htdocs/boulangeriedopale/wp-content
+0005.555 (0) finding files: upgrade: skipping: excluded by options
+0005.556 (0) finding files: index.php: adding to list (1)
+0005.557 (0) finding files: plugins: skipping: this is the plugins directory
+0005.558 (0) finding files: uploads: skipping: this is the uploads directory
+0005.558 (0) finding files: updraft: skipping: this is the updraft directory
+0005.559 (0) finding files: languages: adding to list (2)
+0005.560 (0) finding files: themes: skipping: this is the themes directory
+0005.567 (0) Total entities for the zip file: 3 directories, 92 files (0 skipped as non-modified), 4.2 MB
+0005.771 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-others.zip.tmp: size is now: 1.20 MB
+0005.799 (0) Created others zip (0) - 1200.1 KB in 0.2 s (5039.2 KB/s) (sha1: 7aa9d0f993c5b16429b3a760086e4da2615fccd7, sha256: c84dda2ee7962bc188b1cde484e533dcb468a9a09a5f590b681d21f34cea86f2)
+0005.804 (0) Saving backup status to database (elements: 8)
+0005.807 (0) Beginning creation of database dump (WordPress DB)
+0005.808 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0005.822 (0) Table wp_options: Total expected rows (approximate): 254
+0005.912 (0) Table wp_options: Rows added in this batch (next record: 293): 254 (uncompressed bytes in this segment=1631113) in 0.09 seconds
+0005.918 (0) Table wp_options: finishing file(s) (2, 306.7 KB)
+0005.920 (0) Table wp_users: Total expected rows (approximate): 1
+0005.922 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1404) in 0.00 seconds
+0005.927 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0005.929 (0) Table wp_usermeta: Total expected rows (approximate): 20
+0005.933 (0) Table wp_usermeta: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=2081) in 0.00 seconds
+0005.937 (0) Table wp_usermeta: finishing file(s) (2, 1 KB)
+0005.940 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0005.942 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0005.947 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0005.949 (0) Table wp_comments: Total expected rows (approximate): 1
+0005.951 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2222) in 0.00 seconds
+0005.955 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0005.960 (0) Table wp_links: Total expected rows (approximate): 0
+0005.962 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0005.965 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0005.967 (0) Table wp_postmeta: Total expected rows (approximate): 455
+0006.017 (0) Table wp_postmeta: Rows added in this batch (next record: 489): 460 (uncompressed bytes in this segment=1357038) in 0.05 seconds
+0006.023 (0) Table wp_postmeta: finishing file(s) (2, 129.8 KB)
+0006.025 (0) Table wp_posts: Total expected rows (approximate): 75
+0006.039 (0) Table wp_posts: Rows added in this batch (next record: 496): 75 (uncompressed bytes in this segment=230798) in 0.01 seconds
+0006.046 (0) Table wp_posts: finishing file(s) (2, 13 KB)
+0006.049 (0) Table wp_term_relationships: Total expected rows (approximate): 14
+0006.052 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 14 (uncompressed bytes in this segment=885) in 0.00 seconds
+0006.056 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0006.058 (0) Table wp_term_taxonomy: Total expected rows (approximate): 5
+0006.064 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1064) in 0.00 seconds
+0006.069 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0006.073 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0006.079 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0006.086 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0006.091 (0) Table wp_terms: Total expected rows (approximate): 5
+0006.095 (0) Table wp_terms: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=865) in 0.00 seconds
+0006.108 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0006.112 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_options.table.tmpr294.gz (1/12/fopen): adding to final database dump
+0006.125 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0006.127 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0006.128 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0006.129 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_usermeta.table.tmpr21.gz (5/12/fopen): adding to final database dump
+0006.131 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0006.133 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0006.136 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0006.139 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0006.140 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0006.141 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0006.143 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0006.144 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_postmeta.table.tmpr490.gz (13/12/fopen): adding to final database dump
+0006.150 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0006.151 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_posts.table.tmpr497.gz (15/12/fopen): adding to final database dump
+0006.154 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0006.155 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0006.161 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0006.164 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_term_taxonomy.table.tmpr6.gz (19/12/fopen): adding to final database dump
+0006.168 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0006.174 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0006.181 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0006.188 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_terms.table.tmpr6.gz (23/12/fopen): adding to final database dump
+0006.193 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0006.210 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db.gz: finished writing out complete database file (455.1 KB)
+0006.231 (0) Total database tables backed up: 12 (backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db.gz, size: 466131, sha1: 4c31e687b60f3786c9406cb0db2701de4ebf27d6, sha256: 35f6343b3ab2ffde2e009f78c94889ffcc764eefec9da3cc590f26458ebdbba5)
+0006.235 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.236 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.237 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.237 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.238 (0) backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.239 (0) Saving backup history. Total backup size: 42 MB
+0006.240 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.242 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0006.244 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-66b5cbecd9bafd4418b01b7069742555)
+0008.773 (0) Google Drive: creating path: /UpdraftPlus
+0016.226 (0) Google Drive: quota usage: used=410.4 MB, total=15360 MB, available=14949.6 MB
+0016.228 (0) Google Drive: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip: Attempting to upload to Google Drive (into folder id: 1TC4c7KwLCIOdhxcKpfzjqRXIL7gyTpIs)
+0021.275 (0) Googledrive chunked upload: 6.3 % uploaded (1048576)
+0025.132 (0) Googledrive chunked upload: 12.6 % uploaded (2097152)
+0027.664 (0) Googledrive chunked upload: 19 % uploaded (3145728)
+0036.136 (0) Googledrive chunked upload: 25.3 % uploaded (4194304)
+0040.691 (0) Googledrive chunked upload: 31.6 % uploaded (5242880)
+0041.642 (0) Googledrive chunked upload: 37.9 % uploaded (6291456 - increasing chunk size to 2048 KB - memory usage: 57 / 8.5)
+0043.427 (0) Googledrive chunked upload: 50.5 % uploaded (8388608 - increasing chunk size to 4096 KB - memory usage: 57 / 8.5)
+0045.951 (0) Googledrive chunked upload: 75.8 % uploaded (12582912)
+0049.477 (0) Googledrive chunked upload: 100 % uploaded (12582912)
+0049.482 (0) Google Drive: OK: Archive backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip uploaded in 33.25 seconds
+0049.483 (0) Recording as successfully uploaded: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip
+0049.490 (0) Deleting local file: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-plugins.zip: OK
+0050.028 (0) Google Drive: quota usage: used=426.2 MB, total=15360 MB, available=14933.8 MB
+0050.030 (0) Google Drive: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip: Attempting to upload to Google Drive (into folder id: 1TC4c7KwLCIOdhxcKpfzjqRXIL7gyTpIs)
+0051.466 (0) Googledrive chunked upload: 11.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 56.9 / 8.5)
+0053.321 (0) Googledrive chunked upload: 34.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 57 / 8.5)
+0055.659 (0) Googledrive chunked upload: 81.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 57 / 8.5)
+0057.899 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0057.901 (0) Google Drive: OK: Archive backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip uploaded in 7.87 seconds
+0057.902 (0) Recording as successfully uploaded: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip
+0057.905 (0) Deleting local file: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-themes.zip: OK
+0058.428 (0) Google Drive: quota usage: used=434.8 MB, total=15360 MB, available=14925.2 MB
+0058.430 (0) Google Drive: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-uploads.zip: Attempting to upload to Google Drive (into folder id: 1TC4c7KwLCIOdhxcKpfzjqRXIL7gyTpIs)
+0060.154 (0) Googledrive chunked upload: 6.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 56.9 / 8.5)
+0064.139 (0) Googledrive chunked upload: 18.8 % uploaded (3145728)
+0065.912 (0) Googledrive chunked upload: 31.3 % uploaded (5242880 - increasing chunk size to 4096 KB - memory usage: 57 / 8.5)
+0068.826 (0) Googledrive chunked upload: 56.3 % uploaded (9437184)
+0071.374 (0) Googledrive chunked upload: 81.4 % uploaded (13631488)
+0074.289 (0) Googledrive chunked upload: 100 % uploaded (13631488)
+0074.295 (0) Google Drive: OK: Archive backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-uploads.zip uploaded in 15.86 seconds
+0074.296 (0) Recording as successfully uploaded: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-uploads.zip
+0074.302 (0) Deleting local file: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-uploads.zip: OK
+0074.793 (0) Google Drive: quota usage: used=434.8 MB, total=15360 MB, available=14925.2 MB
+0074.795 (0) Google Drive: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-others.zip: Attempting to upload to Google Drive (into folder id: 1TC4c7KwLCIOdhxcKpfzjqRXIL7gyTpIs)
+0076.188 (0) Googledrive chunked upload: 85.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 56.9 / 8.5)
+0077.686 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0077.688 (0) Google Drive: OK: Archive backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-others.zip uploaded in 2.89 seconds
+0077.689 (0) Recording as successfully uploaded: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-others.zip
+0077.691 (0) Deleting local file: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-others.zip: OK
+0078.155 (0) Google Drive: quota usage: used=452 MB, total=15360 MB, available=14908 MB
+0078.157 (0) Google Drive: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db.gz: Attempting to upload to Google Drive (into folder id: 1TC4c7KwLCIOdhxcKpfzjqRXIL7gyTpIs)
+0080.537 (0) Googledrive chunked upload: 100 % uploaded
+0080.543 (0) Google Drive: OK: Archive backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db.gz uploaded in 2.38 seconds
+0080.544 (0) Recording as successfully uploaded: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db.gz
+0080.548 (0) Deleting local file: backup_2021-07-29-1331_Boulangerie_d039Opale_541d3ecad395-db.gz: OK
+0080.552 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0080.554 (0) Number of backup sets in history: 1; groups (db): 1
+0080.555 (0) Examining (for databases) backup set with group_id=0, nonce=541d3ecad395, datestamp=1627558275 (Jul 29 2021 11:31:15)
+0080.557 (0) This backup set is the backup set just made, so will not be deleted.
+0080.557 (0) Number of backup sets in history: 1; groups (files): 1
+0080.558 (0) Examining (for files) backup set with nonce=541d3ecad395, datestamp=1627558275 (Jul 29 2021 11:31:15)
+0080.558 (0) This backup set is the backup set just made, so will not be deleted.
+0080.559 (0) This backup set is the backup set just made, so will not be deleted.
+0080.560 (0) This backup set is the backup set just made, so will not be deleted.
+0080.560 (0) This backup set is the backup set just made, so will not be deleted.
+0080.560 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0080.561 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0080.565 (0) Resume backup (541d3ecad395, 0): finish run
+0080.568 (0) Decremented the semaphore (fd) by 1
+0080.570 (0) Semaphore (fd) unlocked
+0080.571 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0080.576 (0) The backup apparently succeeded and is now complete
+0080.578 (0) Fetching RSS news feed
+0081.067 (0) Fetched RSS news feed; result is a: SimplePie
+0081.076 (0) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 0, size: 0 KB) to: butel...
+0081.089 (0) La sauvegarde a apparemment réussi et est maintenant terminée
